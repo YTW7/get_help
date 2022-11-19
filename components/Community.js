@@ -6,14 +6,13 @@ const Community = () => {
   return (
     <div>
       <section class="text-white body-font bg-black w-full">
-<<<<<<< HEAD
 
       <h1 class="sm:text-3xl text-2xl font-medium title-font text-center text-gray-900 mb-20">Raw Denim Heirloom Man Braid
       {/* <br class="hidden sm:block">Selfies Wayfarers</br> */}
     </h1>
-=======
+
         <h1 class="  text-4xl font-medium title-font text-center text-white mt-20">OUR SERVICES</h1>
->>>>>>> 96d82849823ee08a87494f40b6cfcf603914b286
+
         {/* 1st card  */}
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-wrap -m-4">
