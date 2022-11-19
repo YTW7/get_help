@@ -14,28 +14,20 @@ const Navbar = ({ connected, publicKey}) => {
     <Head>
     <script>
   // It's best to inline this in `head` to avoid FOUC (flash of unstyled content) when changing pages or themes
-  if (
-    localStorage.getItem('color-theme') === 'dark' ||
-    (!('color-theme' in localStorage) &&
-      window.matchMedia('(prefers-color-scheme: dark)').matches)
-  ) {
-    document.documentElement.classList.add('dark')
-  } else {
-    document.documentElement.classList.remove('dark')
-  }
+
 </script>
     </Head>
    <Script src="../path/to/flowbite/dist/flowbite.bundle.js" />
 
     <div>
-      <header class="text-gray-600 body-font">
+      <header class="text-white body-font bg-black width-1 rounded-xl">
         
   <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     
     <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-      <a class="mr-5 hover:text-gray-900">Home</a>
-      <a class="mr-5 hover:text-gray-900">About</a>
-      <a class="mr-5 hover:text-gray-900">Contact</a>
+      <a class="mr-5 hover:text-red-600">Home</a>
+      <a class="mr-5 hover:text-red-600">About</a>
+      <a class="mr-5 hover:text-red-600">Contact</a>
       {/* <a class="hover:text-gray-900">Fourth Link</a> */}
     </nav>
     <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
@@ -43,7 +35,7 @@ const Navbar = ({ connected, publicKey}) => {
         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
       </svg> */}
       <img src="/logo1.png" class="w-10 h-10" alt="logo" />
-      <span class="ml-3 text-xl">Get Help</span>
+      <span class="ml-3 text-xl text-white">Get Help</span>
     </a>
     <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
       {/* <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0" >
