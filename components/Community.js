@@ -9,7 +9,7 @@ const Community = () => {
       <section class="text-white body-font bg-black w-full">
 
       <h1 class="sm:text-3xl text-2xl font-medium title-font text-center text-gray-900 mb-20">Raw Denim Heirloom Man Braid
-      <br class="hidden sm:block">Selfies Wayfarers</br>
+      {/* <br class="hidden sm:block">Selfies Wayfarers</br> */}
     </h1>
         {/* 1st card  */}
         <div class="container px-5 py-24 mx-auto">
